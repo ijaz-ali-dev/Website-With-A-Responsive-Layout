@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+#main-header{
+    background-color: #f49549;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+#navbar{
+    background-color: #333;
+    color: #ccc;
+    padding: 20px;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 12px;
+
+}
+#showcase{
+    background-image: url("./wallpaperbetter.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    opacity: 0.7 black;
+    width: 100%;
+
+
+}
+.container-h1{
+    text-align:center;  
+    font-size: 1.7rem;
+    color: white; 
+    z-index: 10;  
+    display: inline-block;
+    width: 100%;
+    line-height: 500px;
+    vertical-align: middle;
+}
+/* #showcase h1{
+    padding-top: 50px;
+    color: #ccc;
+    line-height: 1.6rem;
+    display: flex;
+} */
+
+.box-1{
+    background-color: rgb(74, 68, 61);
+    color: white;
+    line-height: 2rem;
+    padding: 8%;
+    border: 3px solid rgb(136, 82, 0);
+}
+.box-1 h1{
+    font-family: tahoma;
+    font-style: italic;
+    font-weight: 400;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+    word-spacing: .1rem;
+}
+.box-2{
+    background-color: rgb(222, 222, 222);
+    color: rgb(0, 0, 0);
+    line-height: 2rem;
+    padding: 8%;
+    border: 3px solid rgb(195, 195, 195);
+    margin: 20px 0;
+}
+.box-2 h1 {
+    letter-spacing: 0.01em;
+    word-spacing: .1rem;
+}
+.catagories{
+    border: 1px solid #ccc;
+    padding: 40px;
+}
+.catagories h2{
+    text-align: center;
+}
+.catagories ul{
+    padding: 0;
+    list-style: none;
+}
+.catagories li{
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+a:active{
+    text-decoration: none;
+    color: rgb(164, 98, 0);
+
+}
+
+a:hover{
+    color:rgb(164, 98, 0);
+}
+.my-form{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+
+}
+.my-form .form-group{
+    padding-bottom: 30px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+    width: 100%;
+    padding: 8px;
+}
+.button{
+    background-color: black;
+    color: wheat;
+    padding:10px 15px;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+.button:hover{
+    background-color:rgb(136, 82, 0);
+    color: rgb(255, 255, 255);
+}
+.block{
+    width: 80%;
+    /* letter-spacing: 0.01em; */
+    word-spacing: .01rem;
+    line-height: 2rem;
+    padding: 5%;
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.crl{
+    clear: both;
+}
+#main-block{
+    float: left;
+    width:70%;
+    padding: 10px;
+    box-sizing: border-box;
+
+    /* height:266px; */
+    background-color: #f49549;  
+ 
+}
+#main-block h3,p{
+    word-spacing: .01rem;
+    line-height: 2rem;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+#main-footer{
+    background-color: rgb(138, 138, 138);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    /* margin-top: 40px; */
+}
+@media(max-width:600px){
+    #main-block{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
